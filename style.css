@@ -12,3 +12,15 @@ h3 {
 	padding: 1rem;
 	font-size: 1rem;
 }
+
+p {
+	padding: 1rem;
+	font-size: 1rem;
+	color: rgb(200, 200, 200);
+}
+
+li {
+	padding: 1rem;
+	font-size: 1rem;
+	color: rgb(200, 200, 200);
+}
