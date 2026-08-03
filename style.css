@@ -1,3 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	color: white;
+	background-color: rgb(20, 20, 30);
+	font-family: Arial, sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: stretch;
+	text-align: center;
+	border: 3px solid transparent; 
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	align-text: center;
+}
+
+a:hover {
+	color: rgb(20, 20, 255);
+}
+
 h1 {
 	padding: 2rem;
 	font-size: 3rem;
@@ -16,11 +44,74 @@ h3 {
 p {
 	padding: 1rem;
 	font-size: 1rem;
-	color: rgb(200, 200, 200);
 }
 
 li {
 	padding: 1rem;
 	font-size: 1rem;
-	color: rgb(200, 200, 200);
+}
+
+ol {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+header, section, footer {
+	padding: 3rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+article {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+iframe {
+	width: 100%;
+	height: 100%;
+}
+
+button {
+	background-color: rgb(20, 20, 255);
+	font-size: 1rem;
+	padding: 1rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	border: none;
+	border-radius: 16px;
+	color: white;
+	font-family: Arial, sans-serif;
+}
+
+.colored-section {
+	background-color: rgb(20, 20, 50);
+}
+
+.white-section {
+	background-color: white;
+	color: black;
+}
+
+.row-container {
+    	display: flex;
+    	flex-direction: row;
+	justify-content: space-evenly;
+	border: transparent solid 3px;
+	align-items: center;
+    	width: 65%;
+}
+
+.column-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: transparent solid 3px;
+	width: 65%;
 }
