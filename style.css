@@ -78,11 +78,6 @@ article img {
 	object-fit: cover;
 }
 
-iframe {
-	width: 100%;
-	height: 100%;
-}
-
 button {
 	background-color: rgb(20, 20, 255);
 	font-size: 1rem;
