@@ -1,70 +1,23 @@
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Nathaniel Knerr</title>
+		<title>Coaster Jump</title>
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<header>
-			<h1>Nathaniel Knerr</h1>
-			<nav class="row-container">
-				<a href="#summary">Summary</a>
-				<a href="#projects">Projects</a>
-				<a href="#skills">Skills</a>
-			</nav>
-		</header>
-		
-		<main>
 
-			<section class="colored-section" id="summary">
-                                <div class="column-container">
-                                        <h2>Summary</h2>
-                                        <p>
-                                                Hello, I'm a Computer Science student at Cypress College with over 4 years of hands-on experience building websites, APIs, and games.
-                                        </p>
-                                        <p>
-                                                I love having the ability to make life-changing technology and express myself with just my laptop.
-                                        </p>
-                                        <p>
-                                                I'm always looking to improve my skills and will always be a lifelong learner.
-                                        </p>
-                                </div>
-                        </section>
-
-			<section class="white-section" id="projects">
-				<h2>Coaster Jump</h2>
-                                <iframe class="game-frame" src="games/coaster-jump/index.html"></iframe>
-			</section>
-
-			<section class="colored-section" id="skills">
-				<h2>Skills</h2>
-				<div class="row-container">
-					<article>
-						<h3>Game Development</h3>
-					</article>
-					<article>
-						<h3>Full-Stack Development</h3>
-					</article>
-					<article>
-						<h3>Technical Communication</h3>
-					</article>
+		<main class="game-page">
+                                <iframe id="cj-game" class="game-frame" src="games/coaster-jump/index.html"></iframe>
+				<div class="column-container">
+					<button class="home-button" id="home-button-cj">Return Home</button>
 				</div>
-			</section>
 
 		</main>
 
-		<footer>
-			<div class="row-container">
-				<a href="mailto:knerrnathaniel@gmail.com">knerrnathaniel@gmail.com</a>
-				<a href="https://www.linkedin.com/in/nathaniel-knerr-91210a27b/" target="_blank">LinkedIn</a>
-				<a href="https://github.com/nathaniel-knerr" target="_blank">GitHub</a>
-			</div>	
-			<p>© 2026 Nathaniel Knerr</p>		
-		</footer>
-
-		<script src="script.js"></script>
+		<script src="coaster-jump.js"></script>
 	
 	</body>
 </html>

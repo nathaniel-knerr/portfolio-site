@@ -1,7 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    	margin: 0;
+    	padding: 0;
+    	box-sizing: border-box;
 }
 
 body {
@@ -12,8 +12,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: stretch;
-	text-align: center;
-	border: 3px solid transparent; 
+	text-align: center; 
 }
 
 a {
@@ -90,10 +89,34 @@ button {
 	font-family: Arial, sans-serif;
 }
 
+.game-header {
+	padding: 0;
+	margin: 0;
+	font-size: 1rem;
+}
+
+.game-page {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	background-color: rgb(20, 20, 30);
+	color: white;
+	padding: 0;
+}
+
+.home-button {
+	padding: 0.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
 .game-frame {
 	width: 1280px;
 	height: 720px;
 	border: none;
+	margin: 0;
 }
 
 .colored-section {
