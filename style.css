@@ -187,6 +187,9 @@ button {
 	.column-container {
 		width: 100%;
 	}
+	article {
+		width: 100%;
+	}
 	article img {
 		width: 100%;
 	}
