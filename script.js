@@ -8,6 +8,8 @@ const toggleDevOpsSkills = document.getElementById("toggle-devops-skills");
 // Buttons
 const playButtonCJ = document.getElementById("play-button-cj");
 const playButtonTA = document.getElementById("play-button-ta");
+const aiWorkspaceButton = document.getElementById("ai-workspace-button");
+const githubButton = document.getElementById("github-button");
 // Content
 const body = document.querySelector("body");
 const nav = document.querySelector("nav");
@@ -24,11 +26,19 @@ let isToggleAutomationSkillsUp = true;
 let isToggleSoftwareDevelopementSkills = true;
 let isToggleDevOpsSkills = true;
 
+// Go to AI Workspace
+aiWorkspaceButton.addEventListener("click", () => {
+	window.open("https://nathanielknerr.notion.site/Nathaniel-Knerr-s-Workspace-40bb6a99cd5280ba94f9f9da2e2a9dff", "_blank");
+});
+// Go to GitHub
+githubButton.addEventListener("click", () => {
+	window.open("https://github.com/nathaniel-knerr", "_blank");
+});
+// Go to Coaster Jump
 playButtonCJ.addEventListener("click", () => {
 	window.location.href = "coaster-jump.html";
 });
-
-
+// Go to Track Attack
 playButtonTA.addEventListener("click", () => {
 	window.open("https://gx.games/games/dr3b59/track-attack/tracks/5333215e-3b13-4fdc-b5cf-e2c86e84b124/", "_blank");
 });
